@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "https-proxy-agent": "^7.0.4",
+    "nuxt": "^3.12.1",
+    "openai": "^4.51.0",
+    "vue": "^3.4.27",
+    "vue-audio-visual": "^3.0.8",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "naive-ui": "^2.38.2",
+    "vfonts": "^0.0.3"
+  }
+}
